@@ -18,5 +18,5 @@ It stores links locally using the browser's `localStorage`, so your saved bookma
 This project helped with JavaScript logic, event-driven code, and designing with color schemes in CSS.
 
 <div align="center">
-  <img src="https://github.com/lorraine-mwoyounotsva/mini-project-bookmark-saver/blob/main/bookmarksaver.png?raw=true" alt="404 Page Preview" width="400"/> 
+  <img src="https://github.com/lorraine-mwoyounotsva/mini-project-bookmark-saver/blob/main/bookmarksaver.png?raw=true" alt="Bookmark Saver Preview" width="400"/> 
 </div>
