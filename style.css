@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffef2;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  background: #fff7dc;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #c06c00;
+  margin-bottom: 1.5rem;
+}
+
+.form-area input {
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  width: 100%;
+  border: 1px solid #d3cfcf;
+  border-radius: 6px;
+}
+
+.form-area button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-area button:hover {
+  background-color: #e68a00;
+}
+
+#saved-links {
+  list-style: none;
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+#saved-links li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#saved-links a {
+  color: #cc6600;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.delete-btn {
+  background-color: #e04f5f;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
